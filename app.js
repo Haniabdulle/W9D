@@ -13,8 +13,10 @@ console.log (sum1);
 let sum2 = numbers (53,10);
 console.log(sum2);
 
+
+// This function looks for words greater or less than 10 and returns true or false//
 function upto_10 (inno_techh) {
-    // if function will check the inno_techh for its character length and return false or true //
+    
     if (inno_techh. length > 10) {
         return true;
     } else {
@@ -36,7 +38,8 @@ let name3 = upto_10('Hanad')
 console.log(name3);
 
 
-// This function finds everything that starts with ph //
+
+
 
 function all_start_ph(argument) {
     let counter = 0;
